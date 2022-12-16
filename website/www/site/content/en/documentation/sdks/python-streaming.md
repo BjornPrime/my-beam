@@ -163,3 +163,4 @@ Python streaming execution does not currently support the following features:
 - Custom source API
 - User-defined custom merging `WindowFn` (with fnapi)
 - For portable runners, see [portability support table](https://s.apache.org/apache-beam-portability-support-table).
+- See [tracking issue](https://github.com/apache/beam/issues/24528) for an up-to-date list of identified gaps in support
