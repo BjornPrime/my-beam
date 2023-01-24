@@ -148,12 +148,6 @@ def run_using_threadpool(fn_to_execute, inputs, pool_size):
     threading.current_thread()._children = weakref.WeakKeyDictionary()
   pool = ThreadPool(min(pool_size, len(inputs)))
   try:
-    # We record and reset logging level here since 'apitools' library Beam
-    # depends on updates the logging level when used with a threadpool -
-    # https://github.com/google/apitools/issues/141
-    # TODO: Remove this once above issue in 'apitools' is fixed.
-    old_level = logging.getLogger().level
     return pool.map(fn_to_execute, inputs)
   finally:
     pool.terminate()
-    logging.getLogger().setLevel(old_level)
