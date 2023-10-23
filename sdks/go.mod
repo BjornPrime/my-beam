@@ -57,7 +57,7 @@ require (
 	golang.org/x/sync v0.4.0
 	golang.org/x/sys v0.13.0
 	golang.org/x/text v0.13.0
-	google.golang.org/api v0.147.0
+	google.golang.org/api v0.148.0
 	google.golang.org/genproto v0.0.0-20231002182017-d307bd883b97
 	google.golang.org/grpc v1.59.0
 	google.golang.org/protobuf v1.31.0
@@ -67,7 +67,7 @@ require (
 )
 
 require (
-	github.com/fsouza/fake-gcs-server v1.47.5
+	github.com/fsouza/fake-gcs-server v1.47.6
 	golang.org/x/exp v0.0.0-20230807204917-050eac23e9de
 )
 
@@ -88,7 +88,7 @@ require (
 	cloud.google.com/go v0.110.8 // indirect
 	cloud.google.com/go/compute v1.23.0 // indirect
 	cloud.google.com/go/compute/metadata v0.2.3 // indirect
-	cloud.google.com/go/iam v1.1.2 // indirect
+	cloud.google.com/go/iam v1.1.3 // indirect
 	cloud.google.com/go/longrunning v0.5.1 // indirect
 	github.com/Azure/go-ansiterm v0.0.0-20210617225240-d185dfc1b5a1 // indirect
 	github.com/Microsoft/go-winio v0.6.1 // indirect
@@ -171,5 +171,5 @@ require (
 	golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20231002182017-d307bd883b97 // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20231009173412-8bfb1ae86b6c // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20231012201019-e917dd12ba7a // indirect
 )
